@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1060259558034",
+    "project_id": "healthcare-4a672",
+    "storage_bucket": "healthcare-4a672.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060259558034:android:128b93354905b8fffe2c4b",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060259558034-j50jpnsetipf2aq50a6k43vmhbuvpj1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBiLx_-sbF4AOPtqMLT81KzEJTK9_G4jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060259558034-j50jpnsetipf2aq50a6k43vmhbuvpj1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060259558034:android:c5366f724088d260fe2c4b",
+        "android_client_info": {
+          "package_name": "com.example.healthcare12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060259558034-j50jpnsetipf2aq50a6k43vmhbuvpj1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBiLx_-sbF4AOPtqMLT81KzEJTK9_G4jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060259558034-j50jpnsetipf2aq50a6k43vmhbuvpj1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

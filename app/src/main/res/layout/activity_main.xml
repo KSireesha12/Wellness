@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+
+        android:layout_height="141dp"
+        android:scaleType="center"
+        android:src="@drawable/blueprint" />
+
+
+    <LinearLayout
+        android:paddingTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:text="1"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:layout_gravity="center"
+            android:paddingRight="60dp"
+            android:layout_width="wrap_content"
+            android:text="Sugar level :: "
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/Sugarlevel"
+            android:layout_gravity="center"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="50dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:text="2"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingRight="70dp"
+            android:layout_width="wrap_content"
+            android:text="Heart Rate :: "
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/heartrate"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:text="3"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingRight="90dp"
+            android:layout_width="wrap_content"
+            android:text="oxygen :: "
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/oxygen"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:text="4"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingRight="80dp"
+            android:layout_width="wrap_content"
+            android:text="glucose :: "
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/glocose"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:text="5"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+
+            android:paddingRight="70dp"
+            android:layout_width="wrap_content"
+            android:text="Cholestrol :: "
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/Cholestrol"
+            android:paddingRight="60dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:text="6"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:text="Body temparature :: "
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/Bodytemparature"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:text="7"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:text="Blood pressure :: "
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/Bloodpressure"
+            android:paddingLeft="10dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:text="8"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingRight="50dp"
+            android:layout_width="wrap_content"
+            android:text="Respiration :: "
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/Respiration"
+            android:paddingLeft="10dp"
+            android:paddingRight="50dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+
+   <!-- <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/refresh"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+
+            android:layout_gravity="end|bottom"
+    app:fabSize="normal"
+        android:background="@drawable/refresh"
+        app:layout_constraintBottom_toTopOf="@+id/add_alarm_fab"
+        app:layout_constraintEnd_toEndOf="@+id/add_alarm_fab"
+        app:layout_constraintStart_toStartOf="@+id/add_alarm_fab"
+        app:srcCompat="@drawable/refresh"
+        tools:ignore="VectorDrawableCompat" />-->
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        app:rippleColor="#FF0000"
+
+        android:src="@drawable/ic_baseline_navigate_next_24"
+
+        android:layout_margin="16dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+
+        android:src="@drawable/ic_baseline_refresh_24"
+
+        app:rippleColor="#FF0000" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+</LinearLayout>
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/refresh"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="end|bottom"-->
+
+<!--        android:background="@drawable/ic_baseline_refresh_24"-->
+
+<!--        android:layout_margin="16dp"-->
+<!--        android:contentDescription="TODO"-->
